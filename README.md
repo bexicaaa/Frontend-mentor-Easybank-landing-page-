@@ -1,4 +1,4 @@
-# Frontend-mentor-Easybank-landing-page
+# 100 Days of Code - Day 01 - Frontend-mentor-project-Easybank-landing-page
 
 This was a follow along project with Coder Coder tutorial on Youtube.
 
