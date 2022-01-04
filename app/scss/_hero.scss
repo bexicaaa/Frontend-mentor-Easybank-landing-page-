@@ -18,7 +18,7 @@
 
     @include breakpoint-up(medium) {
       min-height: 25rem;
-      background-position-x: center 60%;
+      background-position-x: center 70%;
     }
 
     @include breakpoint-up(large) {
@@ -60,10 +60,11 @@
       }
 
       @include breakpoint-up(large) {
-        width: 100%;
+        width: 120%;
         height: 122%;
         background-size: 94%;
         background-position: center 150%;
+        left: 22%;
       }
     }
   }
@@ -75,23 +76,6 @@
       flex: 2;
       order: 1;
       text-align: left;
-    }
-
-    h1 {
-      font-weight: 300;
-      font-size: 2.3125rem;
-      line-height: 1.15;
-      color: $darkBlue;
-      margin-bottom: 1.5rem;
-
-      @include breakpoint-up(large) {
-        font-size: $font-xlg;
-      }
-    }
-
-    p {
-      line-height: 1.5;
-      margin-bottom: 2.25rem;
     }
   }
 }
