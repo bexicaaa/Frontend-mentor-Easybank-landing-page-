@@ -26,8 +26,6 @@
       order: 2;
       min-height: 41rem;
       background-image: none;
-      //background-image: url("/images/bg-intro-desktop.svg");
-      //background-position: left center;
     }
 
     &::before {
@@ -71,7 +69,7 @@
 
   &__text {
     text-align: center;
-    //left-align-> for desktop media query
+
     @include breakpoint-up(large) {
       flex: 2;
       order: 1;
