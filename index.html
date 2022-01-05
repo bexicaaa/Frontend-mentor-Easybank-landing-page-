@@ -28,6 +28,7 @@
           <img src="images/logo.svg" alt="Easybank" />
         </a>
 
+        <!-- I would look into changing this to a <button> rather than an <a> tag. You are performing an action rather than navigating when clicking the hamburger. Inside the menu should be <a> tags.  -->
         <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
           <span></span>
           <span></span>
@@ -143,6 +144,8 @@
     easy to request an invite through the site ... About Us Contact Blog Careers
     Support Privacy Policy Request Invite © Easybank. All Rights Reserved
 
-    <script src="/app/js/script.js"></script>
+    <!-- This file path was incorrect. First I put a console log inside your script file at the top, to make sure the JS was loading correctly. -->
+    <script src="./app/js/script.js"></script>
+    <!-- Try and install the extension 'Path Intellisense' for VSCode. That'll help you know if you've put the right file path in. -->
   </body>
 </html>
