@@ -1,4 +1,4 @@
-const btnHamburger = document.querySelector("#btnHamburger");
+const btnHamburger = document.getElementById("btnHamburger");
 const body = document.querySelector("body");
 const header = document.querySelector(".header");
 const overlay = document.querySelector(".overlay");
