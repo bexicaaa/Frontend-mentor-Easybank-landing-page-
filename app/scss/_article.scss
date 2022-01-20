@@ -5,7 +5,7 @@
 .article {
   &__grid {
     display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(14.375rem, 1fr));
+    // grid-template-columns: repeat(auto-fit, minmax(14.375rem, 1fr)); // Internet Explorer support
     grid-template-columns: 1fr;
     gap: 1.875rem;
 
